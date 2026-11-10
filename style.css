@@ -3,16 +3,35 @@ p {
 }
 
 div {
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+    padding: 10px;
+    border-spacing: 10px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, .33);
-    padding-left: 10px;
-    padding-right: 10px;
+}
+
+h1 {
+    font-family:helveticaneue;
+    text-align:center;
+    font-size: 45px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+#diddybutton-div {
+    height:20px
 }
 
 .diddy-button-text {
     display: inline-block;
+    margin: 0px;
 }
 
 .diddy-button {
@@ -26,6 +45,7 @@ div {
     transition: background-color 0.2s, box-shadow 0.2s, margin-top 0.2s, margin-left, 0.2s;
     display: inline-block;
     box-shadow: 2px 2px 5px rgba(0,0,0,.33);
+    padding:0px
 }
 
 .diddy-button:hover {
@@ -38,3 +58,4 @@ div {
     margin-left: 2px;
     box-shadow: none;
 }
+

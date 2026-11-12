@@ -1,15 +1,34 @@
 <!DOCTYPE HTML>
 <html>
     <head>
+        <favicon href="portfolio_favicon.ico" type="image/x-icon">
+        <title>Portfolio</title>
         <link rel="stylesheet" href="portfolio_style.css">
-        <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.4.0/model-viewer.min.js"></script>
     </head>
-    <body>
-        <div id="navbar"><a href="index.html">Home</a><a href="about.html">About</a><a href="portfolio.html">Portfolio</a><a href="contact.html">Contact</a></div>
+    <body bgcolor="#45594F">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
         <div id="portfolio-container">
             <h1>Portfolio</h1>
-            <div>
-                <model-viewer alt="A wolf wearing Domino's employee uniform in a t-pose." src="assets/dominos wolf.fbx" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+            <div class="matt-and-jay">
+                <div class="portfolio-text-container">
+                    <p class="matt-and-jay-text">This was a quick project I did over summer in 2026 as a sort of divine invervention saying that I have to make this video as I made it within a few days as a refresher to still keep my skills and ideas moving while I was on break</p>
+                </div>
+                <video width="320" height="240" autoplay muted loop>
+                    <source src="assets/matt and jay mario.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="matt-and-jay">
+                <video height="320" autoplay muted loop>
+                    <source src="assets/rem.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p class="portfolio-text-container">This was something I had made the year before similarly to the Matt and Jay animation and made for nothing more than just for fun as well as a little art piece too</p>
             </div>
         </div>
     </body>

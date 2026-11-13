@@ -74,3 +74,12 @@ video {
 .matt-and-jay-text {
     text-align: justify;
 }
+
+@font-face {
+font-family: "coolvetica";
+src: url("https://trashei.github.io/wicked-website/fonts/coolvetica-rg-webfont.woff") format("woff");
+src: url("https://trashei.github.io/wicked-website/fonts/coolvetica-rg-it-webfont.woff") format("woff");
+src: url("https://trashei.github.io/wicked-website/fonts/coolvetica-rg-cond-webfont.woff") format("woff");
+src: url("https://trashei.github.io/wicked-website/fonts/coolvetica-rg-cram-webfont.woff") format("woff");
+src: url("https://trashei.github.io/wicked-website/fonts/coolvetica-hv-comp-webfont.woff") format("woff");
+}
